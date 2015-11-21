@@ -8,12 +8,36 @@ public class Manager {
     private String name; // ФИО
     private Boolean isAdmin; // Есть ли права администратора
     private String comment; // любая дополнительная информация
+    private String login; // любая дополнительная информация
+    private String pass; // любая дополнительная информация
+    private int passHash; // любая дополнительная информация
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public void setPass(String pass) {
+        this.pass = pass;
+    }
+
+    public String getLogin() {
+
+        return login;
+    }
+
+    public int getPassHash() {
+        return passHash;
+    }
 
     public Manager(int id, String name, Boolean isAdmin, String comment) {
         this.id = id;
         this.name = name;
         this.isAdmin = isAdmin;
         this.comment = comment;
+        this.login = login;
+
+        this.pass = pass;
+        this.passHash = pass.hashCode();
     }
 
     public int getId() {
