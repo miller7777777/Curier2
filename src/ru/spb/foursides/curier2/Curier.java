@@ -2,9 +2,9 @@ package ru.spb.foursides.curier2;
 
 public class Curier {
 
-    //класс, описывающий курьера
+    //РєР»Р°СЃСЃ, РѕРїРёСЃС‹РІР°СЋС‰РёР№ РєСѓСЂСЊРµСЂР°
 
-    private int id; //id в базе MySQL
-    private String name; //имя
-    private String comment; //любая дополнительная информация
+    private int id; //id РІ Р±Р°Р·Рµ MySQL
+    private String name; //РёРјСЏ
+    private String comment; //Р»СЋР±Р°СЏ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
 }

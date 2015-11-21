@@ -2,12 +2,12 @@ package ru.spb.foursides.curier2;
 
 public class Manager {
 
-    //класс, описывающий менеджера
+    //РєР»Р°СЃСЃ, РѕРїРёСЃС‹РІР°СЋС‰РёР№ РјРµРЅРµРґР¶РµСЂР°
 
-    private int id; // id в базе MySQL
-    private String name; // ФИО
-    private Boolean isAdmin; // Есть ли права администратора
-    private String comment; // любая дополнительная информация
+    private int id; // id РІ Р±Р°Р·Рµ MySQL
+    private String name; // Р¤РРћ
+    private Boolean isAdmin; // Р•СЃС‚СЊ Р»Рё РїСЂР°РІР° Р°РґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂР°
+    private String comment; // Р»СЋР±Р°СЏ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
 
     public Manager(int id, String name, Boolean isAdmin, String comment) {
         this.id = id;

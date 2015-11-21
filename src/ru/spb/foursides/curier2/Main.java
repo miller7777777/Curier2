@@ -2,7 +2,7 @@ package ru.spb.foursides.curier2;
 
 public class Main {
 
-    //класс для запуска приложения
+    //РєР»Р°СЃСЃ РґР»СЏ Р·Р°РїСѓСЃРєР° РїСЂРёР»РѕР¶РµРЅРёСЏ
 
     public static void main(String[] args) {
         App app = new App();

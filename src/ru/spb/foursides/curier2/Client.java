@@ -2,13 +2,13 @@ package ru.spb.foursides.curier2;
 
 public class Client {
 
-    long id; //id в базе MySQL
-    private String name; //название организации
-    private String contract; //договор
-    private Boolean status; //активный или неактивный клиент (действующий или недействующий договор)
-    private Adress adress; //адрес клиента
-    private String contactPerson; //контактное лицо
-    private String comment; //любая другая дополнительная информация
+    long id; //id РІ Р±Р°Р·Рµ MySQL
+    private String name; //РЅР°Р·РІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё
+    private String contract; //РґРѕРіРѕРІРѕСЂ
+    private Boolean status; //Р°РєС‚РёРІРЅС‹Р№ РёР»Рё РЅРµР°РєС‚РёРІРЅС‹Р№ РєР»РёРµРЅС‚ (РґРµР№СЃС‚РІСѓСЋС‰РёР№ РёР»Рё РЅРµРґРµР№СЃС‚РІСѓСЋС‰РёР№ РґРѕРіРѕРІРѕСЂ)
+    private Adress adress; //Р°РґСЂРµСЃ РєР»РёРµРЅС‚Р°
+    private String contactPerson; //РєРѕРЅС‚Р°РєС‚РЅРѕРµ Р»РёС†Рѕ
+    private String comment; //Р»СЋР±Р°СЏ РґСЂСѓРіР°СЏ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
 
     public Client(long id, String comment, String name, Boolean status, Adress adress, String contactPerson, String contract) {
         this.id = id;

@@ -4,19 +4,19 @@ import java.util.Date;
 
 public class CurierTask {
 
-    //класс, описывающий вызов курьера
+    //РєР»Р°СЃСЃ, РѕРїРёСЃС‹РІР°СЋС‰РёР№ РІС‹Р·РѕРІ РєСѓСЂСЊРµСЂР°
 
-    private long id; //id в базе MySQL
-    private Client client; //клиент
-    private Date dateFrom; //время, к которому должен подъехать курьер
-    private Date dateTo; //время, до которого может подъехать курьер
-    private Adress adressGetting; //адрес забора груза
-    private Adress adressDelivery; //адрес доставки груза
-    private String cargo; //груз
-    private Manager manager; //менеджер, оформивший вызов
-    private Curier curier; //курьер
-    private Boolean autoTask; //является ли задание "автовызовом"
-    private String comment; //любая дополнительная информация
+    private long id; //id РІ Р±Р°Р·Рµ MySQL
+    private Client client; //РєР»РёРµРЅС‚
+    private Date dateFrom; //РІСЂРµРјСЏ, Рє РєРѕС‚РѕСЂРѕРјСѓ РґРѕР»Р¶РµРЅ РїРѕРґСЉРµС…Р°С‚СЊ РєСѓСЂСЊРµСЂ
+    private Date dateTo; //РІСЂРµРјСЏ, РґРѕ РєРѕС‚РѕСЂРѕРіРѕ РјРѕР¶РµС‚ РїРѕРґСЉРµС…Р°С‚СЊ РєСѓСЂСЊРµСЂ
+    private Adress adressGetting; //Р°РґСЂРµСЃ Р·Р°Р±РѕСЂР° РіСЂСѓР·Р°
+    private Adress adressDelivery; //Р°РґСЂРµСЃ РґРѕСЃС‚Р°РІРєРё РіСЂСѓР·Р°
+    private String cargo; //РіСЂСѓР·
+    private Manager manager; //РјРµРЅРµРґР¶РµСЂ, РѕС„РѕСЂРјРёРІС€РёР№ РІС‹Р·РѕРІ
+    private Curier curier; //РєСѓСЂСЊРµСЂ
+    private Boolean autoTask; //СЏРІР»СЏРµС‚СЃСЏ Р»Рё Р·Р°РґР°РЅРёРµ "Р°РІС‚РѕРІС‹Р·РѕРІРѕРј"
+    private String comment; //Р»СЋР±Р°СЏ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
 
     public CurierTask(long id, Client client, Date dateFrom, Date dateTo, Adress adressGetting, Adress adressDelivery, String cargo, Manager manager, Curier curier, Boolean autoTask, String comment) {
         this.id = id;
