@@ -8,9 +8,9 @@ public class Manager {
     private String name; // ФИО
     private Boolean isAdmin; // Есть ли права администратора
     private String comment; // любая дополнительная информация
-    private String login; // любая дополнительная информация
-    private String pass; // любая дополнительная информация
-    private int passHash; // любая дополнительная информация
+    private String login; // логин юзера
+    private String pass; // пароль юзера. Вводится при создании. Не запрашивается. Может быть установлен.
+    private int passHash; // хэш пароля юзера. Создается автоматически. Не может быть установлен вручную, может быть запрошен.
 
     public void setLogin(String login) {
         this.login = login;
